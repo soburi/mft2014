@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name open-project)(type KiCad)(uri D:\mft2014\kicad\open-project.lib)(options "")(descr ""))
+  (lib (name relay)(type KiCad)(uri D:\kicadlib\relays.lib)(options "")(descr ""))
+  (lib (name akirelay)(type KiCad)(uri D:\kicadlib\akizuki_relay.pretty)(options "")(descr ""))
+)

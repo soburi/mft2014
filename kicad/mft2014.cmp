@@ -1,0 +1,311 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-07 BZR 5167)-product   date = 2014/10/30 23:06:49
+
+BeginCmp
+TimeStamp = /543919C3;
+Reference = ArduinoProMini1;
+ValeurCmp = DIL24;
+IdModule  = Sockets_DIP:DIP-24__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /54355999;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /543559AB;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5435BF1F;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5435BF2E;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5435C25A;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5435C269;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544DA44F;
+Reference = C7;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544DABDC;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /544D94BB;
+Reference = C9;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5438C281;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = Connect:BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5436B6F4;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /543974DB;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = Discret:D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54394508;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = Discret:D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452751C;
+Reference = J1;
+ValeurCmp = TA7291;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54526BD1;
+Reference = J2;
+ValeurCmp = TA7291;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54526175;
+Reference = J3;
+ValeurCmp = TA7291;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5439E334;
+Reference = K1;
+ValeurCmp = RELAY_akizuki;
+IdModule  = akirelay:akizuki_relay;
+EndCmp
+
+BeginCmp
+TimeStamp = /5439E51A;
+Reference = K2;
+ValeurCmp = RELAY_akizuki;
+IdModule  = akirelay:akizuki_relay;
+EndCmp
+
+BeginCmp
+TimeStamp = /5438A12D;
+Reference = M1;
+ValeurCmp = dcmotor;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5438A360;
+Reference = M2;
+ValeurCmp = dcmotor;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5438A4B1;
+Reference = M3;
+ValeurCmp = dcmotor;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54382E10;
+Reference = P2;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /54387CD5;
+Reference = P6;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5438A9C9;
+Reference = P7;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /543811D5;
+Reference = P8;
+ValeurCmp = RPI_EX_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x13;
+EndCmp
+
+BeginCmp
+TimeStamp = /54386AD0;
+Reference = P9;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5439A891;
+Reference = P21;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5439A6F4;
+Reference = P22;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /543928D7;
+Reference = P23;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54393C12;
+Reference = P24;
+ValeurCmp = CONN_01X04;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /543975E4;
+Reference = Q1;
+ValeurCmp = 2SC1815;
+IdModule  = Housings_TO-92:TO-92-Bipolar-inline-wide-ECB;
+EndCmp
+
+BeginCmp
+TimeStamp = /54393B65;
+Reference = Q2;
+ValeurCmp = 2SC1815;
+IdModule  = Housings_TO-92:TO-92-Bipolar-inline-wide-ECB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5436B79B;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /543559E7;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /543559D8;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54355A05;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /543958DB;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54393D78;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54387133;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /543A8D78;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = Discret:C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /543ABB92;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = Discret:C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /544E593A;
+Reference = W1;
+ValeurCmp = TEST;
+IdModule  = akirelay:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /544E5983;
+Reference = W2;
+ValeurCmp = TEST;
+IdModule  = akirelay:solder_jumper;
+EndCmp
+
+EndListe

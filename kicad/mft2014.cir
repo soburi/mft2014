@@ -1,0 +1,46 @@
+* EESchema Netlist Version 1.1 (Spice format) creation date: 2014/10/11 11:03:25
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+*Sheet Name:/
+P1  5V GNDPWR ? 3.3V SPCTRL_B SPCTRL_A CTRL_A3 CTRL_B3 /SCK /MISO /MOSI ? PWM3 CTRL_B2 CTRL_A2 PWM2 CTRL_B1 CTRL_A1 PWM1 ? ? Net-_P1-Pad22_ ? ? Arduino Pro Mini 3.3V		
+C1  3.3V GNDPWR C		
+C2  5V GNDPWR C		
+R3  /Vs 5V R		
+R2  5V /Vs R		
+R4  /Vs 5V R		
+C3  3.3V GNDPWR C		
+C4  5V GNDPWR C		
+C5  3.3V GNDPWR C		
+C6  5V GNDPWR C		
+D1  Net-_D1-Pad1_ GNDPWR LED		
+R1  Net-_D1-Pad1_ 5V R		
+P5  GNDPWR Net-_M2-Pad~_ ? PWM1 CTRL_A1 CTRL_B1 3.3V /Vs ? Net-_M2-Pad~_ CONN_01X10		
+P4  GNDPWR Net-_M1-Pad~_ ? PWM2 CTRL_A2 CTRL_B2 3.3V /Vs ? Net-_M1-Pad~_ CONN_01X10		
+P3  GNDPWR Net-_M3-Pad~_ ? PWM3 CTRL_A3 CTRL_B3 3.3V /Vs ? Net-_M3-Pad~_ CONN_01X10		
+P8  Net-_P8-Pad1_ ? /SDA ? /SCL ? Net-_P8-Pad7_ Net-_P8-Pad8_ ? Net-_P8-Pad10_ Net-_P8-Pad11_ Net-_P8-Pad12_ Net-_P8-Pad13_ ? Net-_P1-Pad22_ Net-_P8-Pad16_ ? Net-_P8-Pad18_ /MOSI ? /MISO Net-_P8-Pad22_ /SCK Net-_P8-Pad24_ GNDPWR Net-_P8-Pad26_ RPI_EX_HEADER		
+P2  5V SPCTRL_A SPCTRL_B GNDPWR CONN_01X04		
+P9  ? ? ? Net-_P8-Pad8_ Net-_P8-Pad10_ ? CONN_01X06		
+SW1  5V +5V ? SWITCH_INV		
+P6  /SCL /SDA CONN_01X02		
+M2  Net-_M2-Pad~_ dcmotor		
+M3  Net-_M3-Pad~_ dcmotor		
+M1  Net-_M1-Pad~_ dcmotor		
+W6  Net-_P8-Pad12_ PWM3 TEST		
+W7  Net-_P8-Pad16_ CTRL_A3 TEST		
+W8  Net-_P8-Pad18_ CTRL_B3 TEST		
+W9  Net-_P8-Pad22_ PWM2 TEST		
+W10  Net-_P8-Pad24_ CTRL_A2 TEST		
+W11  Net-_P8-Pad26_ CTRL_B2 TEST		
+W3  CTRL_B1 Net-_P8-Pad7_ TEST		
+W4  CTRL_A1 Net-_P8-Pad11_ TEST		
+W5  PWM1 Net-_P8-Pad13_ TEST		
+SW2  Net-_P7-Pad1_ Net-_P8-Pad1_ SW_PUSH		
+P7  Net-_P7-Pad1_ CONN_01X01		
+W1  SPCTRL_A /SDA TEST		
+W2  SPCTRL_B /SCL TEST		
+SW3  Net-_P10-Pad1_ Net-_P8-Pad1_ SW_PUSH		
+P10  Net-_P10-Pad1_ CONN_01X01		
+
+.end
